@@ -1,0 +1,252 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.navvbar{
+    border: 2px solid black;
+    padding: 30px;
+    background-color: black;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 10;
+}
+.ullist1 ul{
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+}
+.ullist1 ul a{
+    text-decoration: none;
+    color: white;
+    font-family: 'MetaBookLF-Roman', sans-serif;
+}
+
+.bothul{
+    display: flex;
+}    
+
+.ullist2 ul{
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    
+}
+.ullist2 ul a{
+    text-decoration: none;
+    color: white;
+    font-family: 'MetaBookLF-Roman', sans-serif;
+}
+
+.dropd{
+    margin-left: 700px;
+    display: none;
+}
+.welcome{
+    margin-top: -320px;
+    margin-left: -320px;
+    margin-right: 200px;
+}
+.welcome h1{
+    font-family: 'Lexend', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+}
+.landingpage{
+    border: 2px solid white;
+    padding: 350px;
+    background-color: aliceblue;
+    margin-top: 100px;
+}
+.apply button{
+    padding: 15px;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(175, 164, 164);
+}
+.apply button:hover {
+    background-color: #45a049;
+}
+.apply button a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Noto Sans Myanmar', sans-serif;
+    font-weight: bold;                                           
+
+}
+.quick button:hover{
+    background-color: #45a049;
+}
+.userform{
+    margin-top: 50px;
+    margin-left: 400px;
+}
+
+.form-container {
+    background-color: white;
+    padding: 100px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400%;
+    max-width: 600px;
+}
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+/* Label and input styling */
+.label {
+    font-size: 16px;
+    margin-bottom: 8px;
+    display: block;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* Button styling */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+
+
+
+.quick button{
+    padding: 15px;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(175, 164, 164);
+}
+
+.quick button a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Noto Sans Myanmar', sans-serif;
+    font-weight: bold;                                           
+
+}
+.thebuttons{
+    display: flex;
+    gap: 20px;
+}
+    
+.footer{
+    border: 2px solid black;
+    padding: 50px;
+    background-color: black;
+}
+.parag{
+    font-family: 'Lexend', sans-serif;
+}
+.endword{
+    margin-left: 300px;
+}
+.endword h3{
+    color: white;
+    font-family: 'Chivo Mono', sans-serif;
+    font-size: 18px;
+                                                
+}
+
+
+@media screen and (max-width: 480px){
+body {
+    max-width: 100%;
+    overflow-x: hidden; /* Prevents horizontal scrolling */
+}
+.container {
+    width: 100%;
+    max-width: 400px; /* Adjust to fit mobile screens */
+    margin: 0 auto; /* Centers content */
+}
+
+
+.navvbar{
+    padding: 20px;
+}  
+.ullist1{
+    margin-left: -40px;
+}
+.ullist1 ul{
+    gap: 10px;
+}
+
+.ullist2{
+    margin-left: -10px;
+   
+}
+.ullist2 ul{
+    gap: 20px;
+}
+.ullist2 li a{
+    font-size: 16px;
+}
+
+.dropd{
+    margin-left: -120px;
+    display: none;
+}
+
+.landingpage{
+    margin-top: 85px;
+}
+.welcome{
+    margin-right: 10px;
+}
+.welcome h1{
+    font-family: 'Lexend', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+
+}
+.parag{
+    font-family: 'Lexend', sans-serif;
+    margin-right: -30px;
+}
+
+
+.userform{
+    margin-left: -100px;
+    
+}
+
+.form-container {
+    background-color: white;
+    padding: 100px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300%;
+    max-width: 520px;
+}
+
+.endword{
+    margin-left: -5px;
+}
+.endword h3{
+    color: white;
+    font-family: 'Chivo Mono', sans-serif;
+    font-size: 14px;
+                                                
+}
+
+}
