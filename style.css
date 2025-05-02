@@ -361,4 +361,25 @@ button:hover {
                                                 
 }
 
+.caro h1{
+    font-size: 40px;
+    font-family: 'Rogan', sans-serif;
+}
+.caro p{
+    font-size: 20px;
+    font-family: 'Rogan', sans-serif;
+    color: whitesmoke;
+}
+.caro button{
+    width: 150px;
+    border-radius: 20px;
+}
+.caro button a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Rogan', sans-serif;
+    
+}
+
 }
